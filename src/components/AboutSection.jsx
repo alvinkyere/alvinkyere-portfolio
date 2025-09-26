@@ -30,7 +30,7 @@ export const AboutSection = () => {
                         Don't Be A Stranger
                     </a>
 
-                    <a href ="Resume/Alvin Kyere.pdf" download className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+                    <a href ="/Alvin Kyere.pdf" download className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
                         Download My Résumé
                     </a>
                 </div>
