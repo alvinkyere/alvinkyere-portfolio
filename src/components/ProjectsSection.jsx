@@ -18,8 +18,8 @@ const projects = [
         description: "Displays real-time weather updates using API integration, with a clean UI and responsive design. Provides current conditions and forecasts, allowing users to search cities globally and get accurate data.",
         image: "/projects/Weather app with react.png",
         tags: ["ReactJS", "Weather API"],
-        demoUrl: "#",
-        githubUrl: "#",
+        demoUrl: "https://weather-app-react-two-pied.vercel.app/",
+        githubUrl: "https://github.com/alvinkyere/weather-app-react",
         
     },
 
@@ -29,8 +29,8 @@ const projects = [
         description: "Implements jump physics, collision detection, and scoring to ensure smooth gameplay. Cross-platform ready with Unity’s Input System and deployed on GitHub + itch.io, demonstrating full-cycle development and publishing.",
         image: "/projects/flappy-bird-project.png",
         tags: ["Unity", "C#", "GitHub.io + Itch.io", "RESTful APIs", "PostgreSQL"],
-        demoUrl: "#",
-        githubUrl: "#",
+        demoUrl: "https://alvinkyere.itch.io/flappiousbirdy",
+        githubUrl: "https://github.com/alvinkyere/Flappious-Birdy",
         
     },
 ]
@@ -70,11 +70,11 @@ export const ProjectsSection = () => {
                 <p className="text-muted-foreground text-xs mb-3">{projects.description}</p>
                 <div className="flex justify-between items-center ">
                     <div className="flex space-x-3">
-                        <a href={projects.demoUrl} 
+                        <a target="_blank" href={projects.demoUrl} 
                         className="text-foreground/80 hover:text-primary transition-colors duration-300 ">
                             <ExternalLink size={20}/>
                         </a>
-                        <a href={projects.githubUrl} 
+                        <a target="_blank" href={projects.githubUrl} 
                         className="text-foreground/80 hover:text-primary transition-colors duration-300 ">
                             <Github size={20}/>
                         </a>
